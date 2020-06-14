@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://s3.amazonaws.com/calculadora.everacosta.com/style.css">
+    <title>Notas UAC</title>
+</head>
+
+<body id="boddy">
+    <div class="MainContainer" id="MainContainer">
+        <h1 class="tittle">Calculador de nota necesaria para pasar una clase</h1>
+        <div id="theform">
+            <form onsubmit="stopDefAction(event);">
+                <p class="label">Corte 1 (30%)</p>
+                <input type="text" name="name" id="corte1" />
+                <p class="label">Corte 2 (30%)</p>
+                <input type="text" name="name" id="corte2" />
+                <button class="myButton" id="ok">Calcular</button>
+            </form>
+            <p id="ResultMessage"></p>
+        </div>
+    </div>
+</body>
+<script src="https://s3.amazonaws.com/calculadora.everacosta.com/fun.js"></script>
+
+</html>
